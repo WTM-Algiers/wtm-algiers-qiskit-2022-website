@@ -22,7 +22,11 @@ module.exports = {
     fontFamily: {
       "IBM-Plex": ["IBM Plex Sans", "ans-serif"],
     },
-    extend: {},
+    extend: {
+      blur: {
+        xs: '2px',
+      }
+    },
   },
   plugins: [],
 };
