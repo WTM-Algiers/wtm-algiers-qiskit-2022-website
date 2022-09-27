@@ -15,7 +15,7 @@ export default function Home() {
       </Head>
       <main className="section-container font-IBM-Plex">
         <SectionTitle title={"Our Partners"} />
-        <Agenda/>
+        <Agenda />
       </main>
     </>
   );
