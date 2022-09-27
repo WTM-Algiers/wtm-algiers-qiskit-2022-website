@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Agenda from "../components/Agenda/Index";
 import SectionTitle from "../components/shared/SectionTitle";
+import YellowButton from "../components/shared/yellowButton";
 export default function Home() {
   return (
     <>
@@ -16,6 +17,7 @@ export default function Home() {
       <main className="section-container font-IBM-Plex">
         <SectionTitle title={"Our Partners"} />
         <Agenda />
+        <YellowButton title={"Your section name"}/>
       </main>
     </>
   );
