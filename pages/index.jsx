@@ -17,7 +17,6 @@ export default function Home() {
       <main className="section-container font-IBM-Plex">
         <SectionTitle title={"Our Partners"} />
         <Agenda />
-        <YellowButton title={"Your section name"}/>
       </main>
     </>
   );
