@@ -11,10 +11,10 @@ const Agenda = () => {
   return (
     <section>      
       <SectionTitle title={"Agenda"}> </SectionTitle>
-      <div className=" flex flex-col justify-center">
+      <div className="md:grid grid-cols-7 flex flex-col justify-center">
 
-        <div className=" flex flex-col invisible md:visible">
-          <div className="md:visible invisible lg:ml-20 absolute pt-10 md:ml-0">
+        <div className=" md:flex flex-col hidden md:visible">
+          <div className="md:visible invisible lg:ml-10 absolute pt-10 md:ml-0">
             <Image
               src={globe}
               alt="globe"
@@ -34,26 +34,26 @@ const Agenda = () => {
           </div>
         </div>
 
-        <div className="flex flex-col justify-center align-center">
+        <div className="col-span-5 flex flex-col justify-center ">
           <YellowButton title={"Saturday 27th Sep"} />
-          <div className="bg-qiskit-blue-lighter shadow-lg sm:mx-auto md:w-7/12  py-[60px] md:py[50px] sm:py-[40px]  flex justify-center  border-4 mb-20  mt-[-30px]">
-            <div className="mx-auto">
+          <div className="justify-center  bg-qiskit-blue-lighter w-full pl-[50px] mb-20 pr-[30px] py-[100px] md:py[80px] sm:py-[50px] border-4 mt-[-30px]">
+            <div className="">
               <div className="flex flex-row md:text-xl sm:text-l py-0 md:px[10px]">
-                <div>
+                <div className="flex-none">
                   {agenda.map((agendaInfo, key) => {
                     return (
-                      <div key={key} className="flex flex-col py-4">
-                        <div className="px-5">{agendaInfo.Time}</div>
+                      <div key={key} className="flex flex-col py-5">
+                        <div className="flex-none">{agendaInfo.Time}</div>
                       </div>
                     );
                   })}
                 </div>
 
-                <div>
+                <div className="">
                   {agenda.map((agendaInfo, key) => {
                     return (
-                      <div key={key} className="flex flex-col py-4">
-                        <div className="px-5 ">{agendaInfo.event}</div>
+                      <div key={key} className="flex flex-col py-5 px-5">
+                        <div className="">{agendaInfo.event}</div>
                       </div>
                     );
                   })}
@@ -62,6 +62,35 @@ const Agenda = () => {
             </div>
           </div>
         </div>
+        <div className=" md:flex flex-col hidden md:visible">
+            <div className="md:visible invisible absolute lg:ml-[20px] md:ml-0 mt-[-50px]">
+              <Image
+                src={maqam}
+                alt="maqam chahid"
+                width={100}
+                height={100}
+                layout="fixed"
+              />
+            </div>
+            <div className="md:visible invisible  absolute lg:ml-[80px] md:ml-[20px] mt-[200px]">
+              <Image
+                src={globe}
+                alt="globe"
+                width={80}
+                height={80}
+                layout="fixed"
+              />
+            </div>
+            <div className="md:visible invisible absolute md:ml-[0px] mt-[400px]">
+              <Image
+                src={computer}
+                alt="computer"
+                width={80}
+                height={80}
+                layout="fixed"
+              />
+            </div>
+          </div>
       </div>
      
     </section>
