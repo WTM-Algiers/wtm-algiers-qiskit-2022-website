@@ -11,7 +11,7 @@ const Agenda = () => {
   return (
     <section>
       <SectionTitle title={"Agenda"}> </SectionTitle>
-      <div className="md:hidden sm:visible ml-[200px] md:mr-5 mt-[-50px]">
+      <div className="md:hidden visible ml-[210px] sm:ml-[500px] md:mr-5 mt-[-50px]">
             <Image
               src={maqam}
               alt="maqam chahid"
@@ -94,7 +94,7 @@ const Agenda = () => {
             />
           </div>
         </div>
-        <div className="visible md:hidden absolute ml-[150px] mt-[800px]">
+        <div className="visible md:hidden absolute ml-[150px] mt-[800px] sm:mt-[500px]">
             <Image
               src={globe}
               alt="globe"
