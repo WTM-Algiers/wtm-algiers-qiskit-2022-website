@@ -5,7 +5,7 @@ import globe from "../../images/shapes/globe.png";
 import atom from "../../images/shapes/atom.png";
 import maqam from "../../images/shapes/GDGAlgiers.png";
 import computer from "../../images/shapes/computer.png";
-import YellowButton from "../shared/yellowButton";
+import YellowButton from "../shared/YellowButton";
 
 const Agenda = () => {
   return (
