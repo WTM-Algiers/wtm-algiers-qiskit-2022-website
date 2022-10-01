@@ -11,7 +11,10 @@ const Agenda = () => {
   return (
     <section className="relative">
       <SectionTitle title={"Agenda"}> </SectionTitle>
-      <div className="md:hidden visible absolute right-0 top-0 z-25 sm:w-[80px] sm:h-[80px] w-[70px] h-[70px]">
+      <div className="md:hidden visible absolute left-0 top-0 z-25 sm:w-[80px] sm:h-[80px] w-[50px] h-[50px]">
+        <Image src={atom} alt="maqam chahid" layout="fill" />
+      </div>
+      <div className="md:hidden visible absolute right-0 top-0 z-25 sm:w-[80px] sm:h-[80px] w-[50px] h-[50px]">
         <Image src={maqam} alt="maqam chahid" layout="fill" />
       </div>
       <div className="md:grid grid-cols-6 flex flex-col justify-center relative">
