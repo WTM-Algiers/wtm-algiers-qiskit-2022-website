@@ -18,6 +18,9 @@ module.exports = {
       "qiskit-blue-lighter": "#9EF0F0",
       "qiskit-blue-normal": "#4999D0",
       "qiskit-purple-lighter": "#6929C4",
+      "partner-yellow": "rgba(255, 186, 0, 0.12)",
+      "partner-blue":"rgba(43, 130, 251, 0.12)",
+      "partner-green" :" rgba(167, 240, 186, 0.29)"
     },
     fontFamily: {
       "IBM-Plex": ["IBM Plex Sans", "ans-serif"],

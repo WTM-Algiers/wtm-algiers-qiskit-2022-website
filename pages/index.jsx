@@ -1,4 +1,5 @@
 import Head from "next/head";
+import OurPartners from "../components/OurPartners/Index";
 import SectionTitle from "../components/shared/SectionTitle";
 export default function Home() {
   return (
