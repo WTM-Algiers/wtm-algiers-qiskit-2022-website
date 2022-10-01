@@ -1,7 +1,7 @@
 import Head from "next/head";
 import Agenda from "../components/Agenda/Index";
 import SectionTitle from "../components/shared/SectionTitle";
-import YellowButton from "../components/shared/yellowButton";
+import YellowButton from "../components/shared/YellowButton";
 export default function Home() {
   return (
     <>
