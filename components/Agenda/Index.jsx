@@ -16,10 +16,10 @@ const Agenda = () => {
       </div>
       <div className="md:grid grid-cols-6 flex flex-col justify-center relative">
         <div className=" md:flex flex-col hidden md:visible">
-          <div className="md:visible invisible absolute top-20 left-10 w-[82px] h-[82px]">
+          <div className=" absolute top-20 left-10 w-[82px] h-[82px]">
             <Image src={globe} alt="globe" layout="fill" />
           </div>
-          <div className="md:visible invisible absolute top-80 left-[-20px] w-[100px] h-[100px]">
+          <div className=" absolute top-80 left-[-20px] w-[100px] h-[100px]">
             <Image
               src={atom}
               alt="atom"
@@ -55,13 +55,13 @@ const Agenda = () => {
           </div>
         </div>
         <div className=" md:flex flex-col hidden md:visible">
-          <div className="md:visible invisible absolute w-[80px] h-[80px] lg:h-[100px] lg:w-[100px] -top-2 right-0 lg:right-10">
+          <div className=" absolute w-[80px] h-[80px] lg:h-[100px] lg:w-[100px] -top-2 right-0 lg:right-10">
             <Image src={maqam} alt="maqam chahid" layout="fill" />
           </div>
-          <div className="md:visible invisible absolute w-[60px] h-[60px] lg:w-[80px] lg:h-[80px] top-60 right-0 lg:right-[-20px]">
+          <div className=" absolute w-[60px] h-[60px] lg:w-[80px] lg:h-[80px] top-60 right-0 lg:right-[-20px]">
             <Image src={globe} alt="globe" layout="fill" />
           </div>
-          <div className="md:visible invisible absolute w-[70px] h-[70px] top-[350px] right-[50px] lg:right-[80px] xl:right-[120px]">
+          <div className=" absolute w-[70px] h-[70px] top-[350px] right-[50px] lg:right-[80px] xl:right-[120px]">
             <Image src={computer} alt="computer" layout="fill" />
           </div>
         </div>
