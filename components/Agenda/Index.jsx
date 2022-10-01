@@ -37,16 +37,16 @@ const Agenda = () => {
             <div className="">
               <div className=" sm:text-xl font-medium md:font-semibold text-xs md:px[10px] ">
                 <div className="flew flex-row">
-                  {agenda.map((agendaInfo, key) => {
+                  {agenda.map((agendaInfo, idx) => {
                     return (
-                      <div className="flex flex-row justify-stretch mx-auto ">
+                      <div key={idx} className="flex flex-row justify-stretch mx-auto ">
                         <div
-                          key={key}
+                          
                           className="flex flex-none py-2.5 md:pl-10"
                         >
                           <div className="">{agendaInfo.Time}</div>
                         </div>
-                        <div key={key} className="flex pl-2 md:pl-10 py-2.5 ">
+                        <div className="flex pl-2 md:pl-10 py-2.5 ">
                           <div className="">{agendaInfo.event}</div>
                         </div>
                       </div>
