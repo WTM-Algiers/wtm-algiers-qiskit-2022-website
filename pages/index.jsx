@@ -1,6 +1,8 @@
 import Head from "next/head";
 import SectionTitle from "../components/shared/SectionTitle";
 import AboutUs from "../components/AboutUs";
+import Agenda from "../components/Agenda";
+
 export default function Home() {
   return (
     <>
@@ -14,8 +16,7 @@ export default function Home() {
         />
       </Head>
       <main className="section-container font-IBM-Plex">
-        <SectionTitle title={"About Us"} />
-        <AboutUs />
+        <AboutUs/>
       </main>
     </>
   );
