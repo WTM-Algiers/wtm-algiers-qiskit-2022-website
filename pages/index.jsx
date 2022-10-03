@@ -1,5 +1,6 @@
 import Head from "next/head";
 import SectionTitle from "../components/shared/SectionTitle";
+import AboutEvent from "../components/AboutEvent/index";
 export default function Home() {
   return (
     <>
@@ -13,7 +14,7 @@ export default function Home() {
         />
       </Head>
       <main className="section-container font-IBM-Plex">
-        <SectionTitle title={"Our Partners"} />
+        <AboutEvent />
       </main>
     </>
   );
