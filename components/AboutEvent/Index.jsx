@@ -40,7 +40,7 @@ const AboutEvent = () => {
         </div>
       </div>
       <div class="relative">
-        <div className="absolute top-[400px] left-[-30px] sm:top-[400px] sm:left-[-30px] h-[53px] w-[56px] lg:h-[66px] lg:w-[70px] 2xl:w-[105px] 2xl:h-[99px]">
+        <div className="absolute top-[400px] left-[-30px] sm:top-[340px] sm:left-[-30px] h-[53px] w-[56px] lg:h-[66px] lg:w-[70px] 2xl:w-[105px] 2xl:h-[99px]">
               <Image
                 src={atom}
                 alt="atom"
@@ -60,15 +60,15 @@ const AboutEvent = () => {
           <div><Image src={Map} alt="" /></div>
           <div className="gap-8 rows-2 p-4 sm:p-10">
             <p className="text-xl 2xl:text-3xl lg:text-2xl"><b>The Qiskit Fall Fest</b> is a collection of quantum computing events on college campuses around the world, with support from the entire IBM Quantum team. This year <b>WTM Algiers</b> is one of the 34 communities which are hosting the Qiskit Fall Fest event this year</p>
-            <div className="gap-4 columns-2 2xl:text-4xl lg:text-3xl text-xl font-bold mt-[10px] mt-[20px]">
-              <div className="flex-row ">
+            <div className="gap-4 columns-2 2xl:text-4xl lg:text-3xl text-xl font-bold mt-[15px] pr-2">
+              <div className="flex-row">
                 <p className="2xl:text-7xl lg:text-6xl text-2xl">1ST</p>
                 <p className="2xl:text-4xl lg:text-3xl text-xl">In Africa and</p>
                 <p className="2xl:text-4xl lg:text-3xl text-xl">MENA Region</p>
               </div>
-              <div className="flex items-start gap-2">
+              <div className="flex items-start gap-2 ">
                 <p className="2xl:text-7xl lg:text-6xl text-2xl">+8</p>
-                <p className="2xl:text-4xl lg:text-3xl text-2xl mt-[25px]">Talks Workshops Challenges</p>
+                <p className="2xl:text-4xl lg:text-3xl text-xl mt-[25px]">Talks Workshops Challenges</p>
               </div>
             </div>
           </div>
