@@ -5,6 +5,9 @@
 .section-container {
   @apply px-4 lg:px-11 2xl:px-16;
 }
+.burger-line {
+  @apply h-1 w-11 bg-qiskit-white rounded
+}
 .hero-bg {
   background: radial-gradient(
     137.29% 137.29% at 50% 50%,
