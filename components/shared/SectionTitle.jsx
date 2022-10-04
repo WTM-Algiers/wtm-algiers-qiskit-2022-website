@@ -6,13 +6,13 @@ const SectionTitle = ({ title }) => {
     <div
       className={`flex ${
         title === "About us" ? "items-start" : "items-end"
-      } gap-4 2xl:gap-6`}
+      } gap-4 2xl:gap-6 justify-center md:justify-start`}
     >
-      <div className="hidden md:flex md:h-20 md:w-16 2xl:w-28 2xl:h-32">
+      <div className="hidden sm:flex md:h-20 md:w-16 2xl:w-28 2xl:h-32">
         {title === "About us" ? (
           <Image src={upArrow} alt="" />
         ) : (
-          <Image src={downArrow} alt="" />
+          <Image src={downArrow} alt=""/>
         )}
       </div>
       <h2 className="text-5xl 2xl:text-[5rem] text-qiskit-blue-normal font-bold">
