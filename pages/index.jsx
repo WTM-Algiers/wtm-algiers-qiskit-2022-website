@@ -18,14 +18,14 @@ export default function Home() {
           rel="stylesheet"
         />
       </Head> 
-      <section> 
+      
+        <main className="section-container font-IBM-Plex">
+        <section> 
         <TheyTrustedUs />
       </section>
-      
-      <main className="section-container font-IBM-Plex">
-        <SectionTitle title={"Our Partners"} />
         <Agenda />
         </main>
+
 
         </>
     );
