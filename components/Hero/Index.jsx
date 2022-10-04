@@ -3,7 +3,6 @@ import Navbar from "./Navbar";
 import Qiskit from "../../images/logos/QiskitHero.png";
 import Arrow from "../../images/shapes/Arrow.png";
 import GDGAlgiers from "../../images/logos/GDGAlgiers-white.png";
-import CFA from "./CFA";
 import CounterContainer from "./CounterContainer";
 
 const Hero = () => {
