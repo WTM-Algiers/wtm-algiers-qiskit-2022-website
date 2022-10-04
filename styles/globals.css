@@ -5,7 +5,17 @@
 .section-container {
   @apply px-4 lg:px-11 2xl:px-16;
 }
-
+.hero-bg {
+  background: radial-gradient(
+    137.29% 137.29% at 50% 50%,
+    #82cfff 0%,
+    #7cc7f7 3.4%,
+    #398ac4 34.91%,
+    #215178 61.05%,
+    #093256 80.54%,
+    #00264a 91.18%
+  );
+}
 .footer-bg {
   background: radial-gradient(
     137.29% 137.29% at 50% 50%,
@@ -17,5 +27,3 @@
     #00264a 91.18%
   );
 }
-
-

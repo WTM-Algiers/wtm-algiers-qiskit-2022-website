@@ -1,8 +1,8 @@
 import Head from "next/head";
 import Agenda from "../components/Agenda/Index";
 import SectionTitle from "../components/shared/SectionTitle";
-import YellowButton from "../components/shared/YellowButton";
 import Footer from "../components/Footer/Index";
+import Hero from '../components/Hero/Index'
 export default function Home() {
   return (
     <>
@@ -15,12 +15,13 @@ export default function Home() {
           rel="stylesheet"
         />
       </Head>
-      <main className="section-container font-IBM-Plex">
+      <Hero />
+      {/* <main className="section-container font-IBM-Plex">
         <SectionTitle title={"Our Partners"} />
         <Agenda />
 
       </main>
-        <Footer />
+        <Footer /> */}
     </>
   );
 }
