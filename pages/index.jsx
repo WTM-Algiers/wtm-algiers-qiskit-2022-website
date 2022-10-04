@@ -2,6 +2,7 @@ import Head from "next/head";
 import OurPartners from "../components/OurPartners/Index";
 import Agenda from "../components/Agenda/Index";
 import SectionTitle from "../components/shared/SectionTitle";
+import AboutEvent from "../components/AboutEvent/Index";
 import YellowButton from "../components/shared/YellowButton";
 import Footer from "../components/Footer/Index";
 export default function Home() {
@@ -17,9 +18,11 @@ export default function Home() {
         />
       </Head>
       <main className="section-container font-IBM-Plex">
+        <AboutEvent />
         <SectionTitle title={"Our Partners"} />
         <OurPartners />
         <Agenda />
+
       </main>
         <Footer />
     </>
