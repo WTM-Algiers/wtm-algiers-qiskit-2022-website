@@ -1,6 +1,6 @@
 import Head from "next/head";
 import SectionTitle from "../components/shared/SectionTitle";
-import AboutEvent from "../components/AboutEvent/index";
+import AboutEvent from "../components/AboutEvent/Index";
 export default function Home() {
   return (
     <>

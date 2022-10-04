@@ -63,12 +63,12 @@ const AboutEvent = () => {
             <div className="gap-4 columns-2 2xl:text-4xl lg:text-3xl text-xl font-bold mt-[15px] pr-2">
               <div className="flex-row">
                 <p className="2xl:text-7xl lg:text-6xl text-2xl">1ST</p>
-                <p className="2xl:text-4xl lg:text-3xl text-xl">In Africa and</p>
-                <p className="2xl:text-4xl lg:text-3xl text-xl">MENA Region</p>
+                <p className="2xl:text-4xl lg:text-3xl sm:text-xl text-base">In Africa and</p>
+                <p className="2xl:text-4xl lg:text-3xl sm:text-xl text-base">MENA Region</p>
               </div>
               <div className="flex items-start gap-2 ">
                 <p className="2xl:text-7xl lg:text-6xl text-2xl">+8</p>
-                <p className="2xl:text-4xl lg:text-3xl text-xl mt-[25px]">Talks Workshops Challenges</p>
+                <p className="2xl:text-4xl lg:text-3xl sm:text-xl text-base mt-[25px]">Talks Workshops Challenges</p>
               </div>
             </div>
           </div>
