@@ -6,7 +6,7 @@ import SectionTitle from "../components/shared/SectionTitle";
 import AboutEvent from "../components/AboutEvent/Index";
 import YellowButton from "../components/shared/YellowButton";
 import Footer from "../components/Footer/Index";
-
+import Hero from '../components/Hero/Index'
 export default function Home() {
   
   return (
@@ -23,6 +23,7 @@ export default function Home() {
         />
 
       </Head>
+      <Hero />
       <main className="section-container font-IBM-Plex">
         <AboutEvent />
         <TheyTrustedUs />
