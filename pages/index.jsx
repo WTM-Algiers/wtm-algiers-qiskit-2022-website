@@ -16,8 +16,9 @@ export default function Home() {
         />
       </Head>
       <main className="section-container font-IBM-Plex">
-        <AboutUs/>
+      
       </main>
+      <AboutUs/>
     </>
   );
 }
