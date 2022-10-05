@@ -36,7 +36,7 @@ const Hero = () => {
                 <div className="h-[67px] w-[67px]">
                   <Image src={Arrow} />
                 </div>
-                <div className="mb-[-50px]">
+                <div className="mb-[-50px] 2xl:mb-[-110px]">
                   <Purpulebutton title={"Register Now!"}/>
                 </div>
               </div>
