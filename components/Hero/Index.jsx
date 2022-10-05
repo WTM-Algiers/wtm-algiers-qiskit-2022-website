@@ -4,13 +4,25 @@ import Qiskit from "../../images/logos/QiskitHero.png";
 import Arrow from "../../images/shapes/Arrow.png";
 import GDGAlgiers from "../../images/logos/GDGAlgiers-white.png";
 import CounterContainer from "./CounterContainer";
-
+import Maqam from "../../images/shapes/MaqamWhite.png";
+import Atom from "../../images/shapes/atomWhite.png";
+import Globe from "../../images/shapes/globe.png";
+import Computer from "../../images/shapes/computerWhite.png";
 const Hero = () => {
   return (
     <div className="min-h-screen hero-bg">
       <div className="section-container">
         <Navbar />
-        <div className="flex flex-col gap-16 lg:gap-0">
+        <div className="flex flex-col gap-16 lg:gap-0 relative">
+          <div className="w-12 h-12 absolute top-1/4 left-4 lg:top-4 lg:left-4">
+            <Image src={Atom} />
+          </div>
+          <div className="w-12 h-12 absolute top-12 left-[90%] lg:top-4 lg:left-1/4">
+            <Image src={Globe} />
+          </div>
+          <div className="hidden lg:block w-16 h-16 absolute top-4 right-16">
+            <Image src={Maqam} />
+          </div>
           <div className="flex flex-col lg:flex-row items-center ">
             <div className="flex flex-col gap-7 flex-1 lg:pl-12 text-qiskit-white">
               <h1 className="font-bold text-4xl lg:text-6xl 2xl:text-7xl leading-[4.5rem]">
@@ -37,6 +49,16 @@ const Hero = () => {
               <Image src={GDGAlgiers} />
             </div>
             <CounterContainer countDownLimit={1665158400000} />
+          </div>
+
+          <div className="w-12 h-12 absolute bottom-16 left-8">
+            <Image src={Atom} />
+          </div>
+          <div className="hidden lg:block w-12 h-12 absolute bottom-1/4 right-8">
+            <Image src={Globe} />
+          </div>
+          <div className="hidden lg:block w-12 h-12 absolute bottom-1/4 right-2/4">
+            <Image src={Computer} />
           </div>
         </div>
       </div>
