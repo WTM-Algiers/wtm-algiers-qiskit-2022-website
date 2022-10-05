@@ -55,7 +55,7 @@ const OurSpeakers = () => {
         <SectionTitle title={"Our Partners"} />
 
 
-        <div className="visible absolute sm:w-[40px] sm:h-[2rem] md:top-1/12 md:w-[55px] md:h-[55px] lg:top-1/4 lg:right-[50px] lg:top-[50px] lg:w-[100px] 2xl:w-[150px] 2xl:h-[120px] z-25 ">
+        <div className="visible absolute sm:bottom-0 sm:right-0 sm:w-[45px] md:top-0 md:right-0 md:w-[55px] md:h-[55px] lg:top-1/4 lg:right-[50px] lg:top-[50px] lg:w-[100px] 2xl:w-[150px] 2xl:h-[120px] z-25 ">
             <Image src={Maqam} alt="maqam" layout="fill" />
         </div>
 
@@ -63,7 +63,7 @@ const OurSpeakers = () => {
             <Image src={globe} alt="globetop" layout="fill" />
         </div>
 
-        <div className="visible absolute sm:right-[25px] sm:bottom-[762px] sm:w-[40px] sm:h-[32px] md:w-[55px] md:h-[55px] lg:w-[82px] lg:h-[82px] lg:right-[100px] lg:bottom-[87px] z-25 s">
+        <div className="visible absolute sm:left-1/4 sm:bottom-0 sm:w-[10px] sm:h-[12px] md:w-[55px] md:h-[55px] lg:w-[82px] lg:h-[82px] lg:right-0 lg:bottom-0 z-25 ">
             <Image src={globe} alt="globebottom" layout="fill" />
         </div>
 
@@ -93,7 +93,7 @@ const OurSpeakers = () => {
                     640: {
                         slidesPerView: 1
                     },
-                    800: {
+                    700: {
                         slidesPerView: 2
                     },
                     1024:
@@ -111,7 +111,7 @@ const OurSpeakers = () => {
                         return <SwiperSlide key={idx} >
                             {({ isActive, isNext, isPrev }) => (
                                 <div className={` ${isActive ? 'lg:scale-75' : (isPrev || isNext ? 'lg:scale-100' : 'lg:scale-75')}`} >
-                                    <div className="">
+                                    <div className="sm:mt-[50px]">
                                         <div className=" relative border-qiskit-black border-4 -z-10">
                                             <Image src={spk.image} alt="" />
                                         </div>
