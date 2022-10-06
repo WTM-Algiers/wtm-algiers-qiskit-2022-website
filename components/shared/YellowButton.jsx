@@ -1,3 +1,4 @@
+
 import Link from "next/link";
 const YellowButton = ({ redirect = "", title }) => {
   return (
@@ -22,5 +23,5 @@ const YellowButton = ({ redirect = "", title }) => {
     </div>
   );
 };
-
 export default YellowButton;
+

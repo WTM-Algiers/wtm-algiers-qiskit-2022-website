@@ -1,4 +1,5 @@
 import Head from "next/head";
+import OurSpeakers from "../components/OurSpeakers/Index";
 import AboutUs from "../components/AboutUs/Index";
 import TheyTrustedUs from "../components/TheyTrustedUs/Index";
 import OurPartners from "../components/OurPartners/Index";
@@ -18,11 +19,13 @@ export default function Home() {
           rel="stylesheet"
         />
       </Head>
+
       <Hero />
       <main className="font-IBM-Plex">
         <AboutEvent />
         <AboutUs />
         <TheyTrustedUs />
+        <OurSpeakers/>
         <OurPartners />
         <Agenda />
       </main>
