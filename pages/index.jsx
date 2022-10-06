@@ -1,6 +1,12 @@
 import Head from "next/head";
 import OurSpeakers from "../components/OurSpeakers/Index";
-import SectionTitle from "../components/shared/SectionTitle";
+import AboutUs from "../components/AboutUs/Index";
+import TheyTrustedUs from "../components/TheyTrustedUs/Index";
+import OurPartners from "../components/OurPartners/Index";
+import Agenda from "../components/Agenda/Index";
+import AboutEvent from "../components/AboutEvent/Index";
+import Footer from "../components/Footer/Index";
+import Hero from "../components/Hero/Index";
 export default function Home() {
   return (
     <>
@@ -13,10 +19,17 @@ export default function Home() {
           rel="stylesheet"
         />
       </Head>
-      <main className="section-container font-IBM-Plex">
-        
+
+      <Hero />
+      <main className="font-IBM-Plex">
+        <AboutEvent />
+        <AboutUs />
+        <TheyTrustedUs />
         <OurSpeakers/>
+        <OurPartners />
+        <Agenda />
       </main>
+      <Footer />
     </>
   );
 }
