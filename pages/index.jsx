@@ -1,4 +1,5 @@
 import Head from "next/head";
+import AboutUs from "../components/AboutUs/Index";
 import TheyTrustedUs from "../components/TheyTrustedUs/Index";
 import OurPartners from "../components/OurPartners/Index";
 import Agenda from "../components/Agenda/Index";
@@ -25,6 +26,8 @@ export default function Home() {
       </Head>
       <Hero />
       <main className="section-container font-IBM-Plex">
+
+        <AboutUs/>
         <AboutEvent />
         <TheyTrustedUs />
         <SectionTitle title={"Our Partners"} />
@@ -32,7 +35,7 @@ export default function Home() {
         <Agenda />
 
       </main>
-        <Footer />
+       <Footer />
     </>
   );
 }
