@@ -16,7 +16,7 @@ const OurSpeakers = () => {
   const swiperRef = useRef(null);
 
   return (
-    <section id="speakers" className="relative">
+    <section id="speakers" className="relative section-container">
       <SectionTitle title={"Our Partners"} />
 
       <div className="visible absolute sm:bottom-0 sm:right-0 sm:w-[45px] md:top-0 md:right-0 md:w-[55px] md:h-[55px] lg:top-1/4 lg:right-[50px] lg:top-[50px] lg:w-[100px] 2xl:w-[150px] 2xl:h-[120px] z-25 ">
