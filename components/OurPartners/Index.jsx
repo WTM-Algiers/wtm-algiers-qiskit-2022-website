@@ -28,7 +28,7 @@ const OurPartners = () => {
     },
   ];
   return (
-    <div className="section-container">
+    <section id="our-partners" className="section-container">
       <SectionTitle title={"Our Partners"}/>
       <div className="flex flex-row">
         <div className=" w-1/12 ml-6">
@@ -73,7 +73,7 @@ const OurPartners = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

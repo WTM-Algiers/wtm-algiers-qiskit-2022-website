@@ -11,7 +11,7 @@ import Sonatrach from "../../images/logos/Sonatrach.png";
 
 const TheyTrustedUs = () => {
   return (
-    <div className="section-container">
+    <section id="our-sponsors" className="section-container">
       <div className="relative">
         <div className="mt-24 lg:mt-7 2xl:mt-12 ">
           <SectionTitle title={"They trusted us"} />
@@ -84,7 +84,7 @@ const TheyTrustedUs = () => {
       <div className="visible lg:invisible 2xl:invisible w-14 h-10 -mt-9 ml-24">
         <Image src={computer} alt="" />
       </div>
-    </div>
+    </section>
   );
 };
 

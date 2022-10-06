@@ -20,7 +20,7 @@
 }
 
 .burger-line {
-  @apply h-1 w-11 bg-qiskit-white rounded
+  @apply h-1 w-11 bg-qiskit-white rounded;
 }
 .hero-bg {
   background: radial-gradient(
@@ -43,4 +43,8 @@
     #093256 80.54%,
     #00264a 91.18%
   );
+}
+
+html {
+  scroll-behavior: smooth;
 }

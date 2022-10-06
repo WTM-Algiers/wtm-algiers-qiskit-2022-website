@@ -1,5 +1,5 @@
 import Image from "next/image";
-import YellowButton from "./YellowButton";
+import YellowButton from "../shared/YellowButton"
 const ParagSection = ({
   keyword1,
   paragraph1,
@@ -7,6 +7,7 @@ const ParagSection = ({
   paragraph2,
   img,
   reverse,
+  redirect
 }) => {
   return (
     <div className="flex flex-col gap-10 items-center lg:flex-row">
@@ -19,7 +20,7 @@ const ParagSection = ({
         </p>
 
         <div>
-          <YellowButton title={"Visit our website"} />
+          <YellowButton redirect={redirect} title={"Visit our website"} />
         </div>
       </div>
 

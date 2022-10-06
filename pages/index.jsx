@@ -3,9 +3,7 @@ import AboutUs from "../components/AboutUs/Index";
 import TheyTrustedUs from "../components/TheyTrustedUs/Index";
 import OurPartners from "../components/OurPartners/Index";
 import Agenda from "../components/Agenda/Index";
-import SectionTitle from "../components/shared/SectionTitle";
 import AboutEvent from "../components/AboutEvent/Index";
-import YellowButton from "../components/shared/YellowButton";
 import Footer from "../components/Footer/Index";
 import Hero from "../components/Hero/Index";
 export default function Home() {

@@ -24,12 +24,12 @@ const Hero = () => {
           <div className="hidden lg:block w-16 h-16 absolute top-4 right-16">
             <Image src={Maqam} />
           </div>
-          <div className="flex flex-col lg:flex-row items-center ">
+          <div className="flex flex-col lg:flex-row items-center">
             <div className="flex flex-col gap-7 flex-1 lg:pl-12 text-qiskit-white">
-              <h1 className="font-bold text-4xl lg:text-6xl 2xl:text-7xl leading-[4.5rem]">
+              <h1 className="font-bold text-center lg:text-left text-4xl lg:text-6xl 2xl:text-7xl leading-[4.5rem]">
                 Qiskit | Fall Fest Algiers
               </h1>
-              <p className="font-medium leading-[2rem] lg:text-2xl 2xl:text-4xl 2xl:leading-[2.875rem]">
+              <p className="font-medium text-center lg:text-left leading-[2rem] lg:text-2xl 2xl:text-4xl 2xl:leading-[2.875rem]">
                 Your chance to discover the Quantum Computing world!
               </p>
               <div className="flex items-end">
