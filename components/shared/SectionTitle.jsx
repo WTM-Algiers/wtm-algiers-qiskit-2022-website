@@ -1,7 +1,7 @@
 import Image from "next/image";
 import downArrow from "../../images/shapes/Arrow.png";
 import upArrow from "../../images/shapes/upArrow.png";
-const SectionTitle = ({ title }) => {
+const SectionTitle = ({isWhite=false, title }) => {
   return (
     <div
       className={`flex ${
@@ -15,7 +15,7 @@ const SectionTitle = ({ title }) => {
           <Image src={downArrow} alt=""/>
         )}
       </div>
-      <h2 className="text-5xl 2xl:text-[5rem] text-qiskit-blue-normal font-bold">
+      <h2 className={`text-5xl 2xl:text-[5rem] ${isWhite ? 'text-qiskit-white': 'text-qiskit-blue-normal'} font-bold`}>
         {title}
       </h2>
     </div>

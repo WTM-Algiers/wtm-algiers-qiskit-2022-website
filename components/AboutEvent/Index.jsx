@@ -9,7 +9,7 @@ import computer from "../../images/shapes/computer.png";
 
 const AboutEvent = () => {
     return (
-    <div> 
+    <div className="section-container"> 
       <div class="relative">
         <div className="absolute right-0 top-0 sm:right-[596px] sm:top-0 w-[28px] h-[30px]  lg:w-[47px] lg:h-[50px] 2xl:w-[70px] 2xl:h-[70px]">
           <Image 

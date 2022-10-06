@@ -6,6 +6,7 @@ import atom from "../../images/shapes/atom.png";
 import globe from "../../images/shapes/globe.png";
 import computer from "../../images/shapes/computer.png";
 import GDGAlgiers from "../../images/shapes/GDGAlgiers.png";
+import SectionTitle from "../shared/SectionTitle";
 
 const OurPartners = () => {
   const partners = [
@@ -27,45 +28,48 @@ const OurPartners = () => {
     },
   ];
   return (
-    <div className="flex flex-row">
-      <div className=" w-1/12 ml-6">
-        <div className=" hidden lg:flex">
-          <div className="mt-5">
-            <Image src={globe} alt="globe" height={50} width={50} />
-          </div>
-          <div className="mt-72">
-            {" "}
-            <Image src={atom} alt="atom" height={50} width={50} />
-          </div>
-        </div>
-      </div>
-      <div className="w-10/12">
-        <div className="flex flex-wrap items-center justify-center">
-          {partners.map((partner, index) => (
-            <div
-              key={index}
-              className={`flex flex-col items-center ${
-                partner.space ? " lg:mx-80 md:mx-auto " : "mx-auto"
-              } mx-auto my-10  `}
-            >
-              <div className={`bg-${partner.color} w-72 rounded-lg md:w-96`}>
-                <p className=" text-center">{partner.text}</p>
-              </div>
-              <Image src={partner.src} />
+    <div className="section-container">
+      <SectionTitle title={"Our Partners"}/>
+      <div className="flex flex-row">
+        <div className=" w-1/12 ml-6">
+          <div className=" hidden lg:flex">
+            <div className="mt-5">
+              <Image src={globe} alt="globe" height={50} width={50} />
             </div>
-          ))}
-        </div>
-        <div className=" hidden lg:flex  md:ml-32  md:-mt-40  opacity-50">
-          <Image src={computer} height={50} width={50} />
-        </div>
-      </div>
-      <div className="w-1/12">
-        <div className="hidden lg:flex lg:flex-col">
-          <div className="justify-end -mt-12 ">
-            <Image src={GDGAlgiers} alt="GDGAlgiers" />{" "}
+            <div className="mt-72">
+              {" "}
+              <Image src={atom} alt="atom" height={50} width={50} />
+            </div>
           </div>
-          <div className="mt-96">
-            <Image src={globe} alt="globe" height={50} width={50} />
+        </div>
+        <div className="w-10/12">
+          <div className="flex flex-wrap items-center justify-center">
+            {partners.map((partner, index) => (
+              <div
+                key={index}
+                className={`flex flex-col items-center ${
+                  partner.space ? " lg:mx-80 md:mx-auto " : "mx-auto"
+                } mx-auto my-10  `}
+              >
+                <div className={`bg-${partner.color} w-72 rounded-lg md:w-96`}>
+                  <p className=" text-center">{partner.text}</p>
+                </div>
+                <Image src={partner.src} />
+              </div>
+            ))}
+          </div>
+          <div className=" hidden lg:flex  md:ml-32  md:-mt-40  opacity-50">
+            <Image src={computer} height={50} width={50} />
+          </div>
+        </div>
+        <div className="w-1/12">
+          <div className="hidden lg:flex lg:flex-col">
+            <div className="justify-end -mt-12 ">
+              <Image src={GDGAlgiers} alt="GDGAlgiers" />{" "}
+            </div>
+            <div className="mt-96">
+              <Image src={globe} alt="globe" height={50} width={50} />
+            </div>
           </div>
         </div>
       </div>

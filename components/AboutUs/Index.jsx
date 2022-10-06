@@ -25,7 +25,7 @@ const AboutUs = () => {
           <Image src={maqam} />
         </div>
         <div className="w-10/12 mx-auto flex flex-col gap-8">
-          <SectionTitle title={"About us"} />
+          <SectionTitle isWhite={true} title={"About us"} />
           <div className="flex flex-col gap-12 lg:gap-28">
             <ParagSection
               keyword1={"WTM Algiers "}

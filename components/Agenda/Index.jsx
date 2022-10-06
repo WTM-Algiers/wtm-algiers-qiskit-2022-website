@@ -9,7 +9,7 @@ import YellowButton from "../shared/YellowButton";
 
 const Agenda = () => {
   return (
-    <section className="relative">
+    <section className="relative section-container">
       <SectionTitle title={"Agenda"}> </SectionTitle>
       <div className="md:hidden visible absolute left-0 top-0 z-25 sm:w-[80px] sm:h-[80px] w-[50px] h-[50px]">
         <Image src={atom} alt="maqam chahid" layout="fill" />
@@ -23,11 +23,7 @@ const Agenda = () => {
             <Image src={globe} alt="globe" layout="fill" />
           </div>
           <div className=" absolute top-80 left-[-20px] w-[100px] h-[100px]">
-            <Image
-              src={atom}
-              alt="atom"
-              layout="fixed"
-            />
+            <Image src={atom} alt="atom" layout="fixed" />
           </div>
         </div>
 
@@ -39,11 +35,11 @@ const Agenda = () => {
                 <div className="flew flex-row">
                   {agenda.map((agendaInfo, idx) => {
                     return (
-                      <div key={idx} className="flex flex-row justify-stretch mx-auto ">
-                        <div
-                          
-                          className="flex flex-none py-2.5 md:pl-10"
-                        >
+                      <div
+                        key={idx}
+                        className="flex flex-row justify-stretch mx-auto "
+                      >
+                        <div className="flex flex-none py-2.5 md:pl-10">
                           <div className="">{agendaInfo.Time}</div>
                         </div>
                         <div className="flex pl-2 md:pl-10 py-2.5 ">
