@@ -17,7 +17,9 @@ const OurSpeakers = () => {
 
   return (
     <section id="speakers" className="relative section-container">
-      <SectionTitle title={"Our Partners"} />
+      <div className="mb-12 lg:mb-0">
+        <SectionTitle title={"Our Speakers"} /> 
+      </div>
 
       <div className="visible absolute sm:bottom-0 sm:right-0 sm:w-[45px] md:top-0 md:right-0 md:w-[55px] md:h-[55px] lg:top-1/4 lg:right-[50px] lg:top-[50px] lg:w-[100px] 2xl:w-[150px] 2xl:h-[120px] z-25 ">
         <Image src={Maqam} alt="maqam" layout="fill" />

@@ -30,7 +30,7 @@ export const links = [
     content: [
       {
         name: "Registrations",
-        redirect: "/",
+        redirect: "#home",
       },
     ],
   },
@@ -39,11 +39,11 @@ export const links = [
     content: [
       {
         name: "About event",
-        redirect: "/",
+        redirect: "#about-event",
       },
       {
         name: "About us",
-        redirect: "/",
+        redirect: "#about-us",
       },
     ],
   },
@@ -52,11 +52,11 @@ export const links = [
     content: [
       {
         name: "Community Partners",
-        redirect: "/",
+        redirect: "#our-partners",
       },
       {
         name: "Sponsors",
-        redirect: "/",
+        redirect: "#our-sponsors",
       },
     ],
   },
@@ -65,15 +65,11 @@ export const links = [
     content: [
       {
         name: "Speakers",
-        redirect: "/",
-      },
-      {
-        name: "Mentors",
-        redirect: "/",
+        redirect: "#speakers",
       },
       {
         name: "Agenda",
-        redirect: "/",
+        redirect: "#agenda",
       },
     ],
   },

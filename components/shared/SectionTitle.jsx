@@ -20,7 +20,7 @@ const SectionTitle = ({ isWhite = false, title }) => {
         )}
       </div>
       <h2
-        className={`text-2xl lg:text-5xl 2xl:text-[5rem] ${
+        className={`text-2xl sm:text-3xl lg:text-5xl 2xl:text-[5rem] ${
           isWhite ? "text-qiskit-white" : "text-qiskit-blue-normal"
         } font-bold`}
       >

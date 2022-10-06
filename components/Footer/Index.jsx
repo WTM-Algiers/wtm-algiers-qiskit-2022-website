@@ -59,7 +59,6 @@ const Footer = () => {
                       <li className="font-semibold mb-6">{link.linkName}</li>
                       <div className="flex flex-col gap-6">
                         {link.content.map((cont, idx2) => {
-                          console.log(cont.name);
                           return (
                             <Link href={cont.redirect} key={idx1 * idx2 + 1}>
                               <li className="text-[0.9375rem] 2xl:text-xl cursor-pointer">

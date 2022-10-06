@@ -51,15 +51,16 @@ const Navbar = () => {
           <ul className="flex flex-col items-center text-xl gap-16 font-medium text-qiskit-white 2xl:text-4xl 2xl:gap-24">
             {NavLinks.map((navLink, idx) => {
               return (
-                <li
-                  key={idx}
-                  className="cursor-pointer relative transition-all duration-700 hover:text-qiskit-yellow"
-                >
-                  {navLink.content == "Home" && (
-                    <div className="absolute left-2 -bottom-[4px] h-[5px] w-4/6 bg-qiskit-white"></div>
-                  )}
-                  <p>{navLink.content}</p>
-                </li>
+                <Link key={idx} href={navLink.redirect}>
+                  <li
+                    className="cursor-pointer relative transition-all duration-700 hover:text-qiskit-yellow"
+                  >
+                    {navLink.content == "Home" && (
+                      <div className="absolute left-2 -bottom-[4px] h-[5px] w-4/6 bg-qiskit-white"></div>
+                    )}
+                    <p>{navLink.content}</p>
+                  </li>
+                </Link>
               );
             })}
           </ul>

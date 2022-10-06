@@ -9,8 +9,8 @@ import computer from "../../images/shapes/computer.png";
 
 const AboutEvent = () => {
     return (
-    <section id="about-event" className="section-container"> 
-      <div class="relative">
+    <section id="about-event" className="section-container pt-12 lg:pt-24"> 
+      <div className="relative">
         <div className="absolute right-0 top-0 sm:right-[596px] sm:top-0 w-[28px] h-[30px]  lg:w-[47px] lg:h-[50px] 2xl:w-[70px] 2xl:h-[70px]">
           <Image 
           src={atom}
@@ -20,8 +20,8 @@ const AboutEvent = () => {
       </div>     
       <SectionTitle title={"About The Event"}/>
       
-      <div class="relative">
-        <div class="absolute top-[460px] right-0 sm:top-[-70px] sm:right-0 lg:top-[-32px] lg:right-0  w-[68px] h-[58px] lg:w-[106px] lg:h-[74px] 2xl:w-[70px] 2xl:h-[70px]">
+      <div className="relative">
+        <div className="absolute top-[460px] right-0 sm:top-[-70px] sm:right-0 lg:top-[-32px] lg:right-0  w-[68px] h-[58px] lg:w-[106px] lg:h-[74px] 2xl:w-[70px] 2xl:h-[70px]">
               <Image
                 src={GDGAlgiers}
                 alt="GDG"
@@ -31,7 +31,7 @@ const AboutEvent = () => {
         
         
       <div>
-      <div class="relative">
+      <div className="relative">
         <div className="absolute top-[650px] sm:top-[450px] right-[122px]  h-[48px] w-[48px] lg:right-[10px] 2xl:right-[10px] lg:w-[55px] lg:h-[55px] 2xl:w-[82px] 2xl:h-[82px]">
               <Image
                 src={globe}
@@ -39,7 +39,7 @@ const AboutEvent = () => {
               />
         </div>
       </div>
-      <div class="relative">
+      <div className="relative">
         <div className="absolute top-[400px] left-[-30px] sm:top-[340px] sm:left-[-30px] h-[53px] w-[56px] lg:h-[66px] lg:w-[70px] 2xl:w-[105px] 2xl:h-[99px]">
               <Image
                 src={atom}
@@ -47,7 +47,7 @@ const AboutEvent = () => {
               />
         </div>
       </div>
-      <div class="relative">
+      <div className="relative">
         <div className="absolute top-[-35px] left-[-25px] h-[38px] w-[38px] lg:w-[55px] lg:h-[55px] 2xl:w-[82px] 2xl:h-[82px]">
               <Image
                 src={globe}
@@ -74,7 +74,7 @@ const AboutEvent = () => {
           </div>
         </div>
       </div> 
-      <div class="relative">
+      <div className="relative">
       <div className="absolute invisible sm:visible right-[640px] h-[46px] w-[61px] 2xl:h-[93px] 2xl:w-[93]">
       <Image
           src={computer}

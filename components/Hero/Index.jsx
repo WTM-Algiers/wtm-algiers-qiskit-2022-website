@@ -11,8 +11,8 @@ import Computer from "../../images/shapes/computerWhite.png";
 import Purpulebutton from '../shared/Purpulebutton'
 const Hero = () => {
   return (
-    <div className="min-h-screen hero-bg">
-      <div className="section-container">
+    <section id="home" className="min-h-screen hero-bg">
+      <div className="section-container pb-8 lg:pb-0">
         <Navbar />
         <div className="flex flex-col gap-16 lg:gap-0 relative">
           <div className="w-12 h-12 absolute top-1/4 left-4 lg:top-4 lg:left-4">
@@ -36,7 +36,7 @@ const Hero = () => {
                 <div className="relative h-[67px] w-[67px] 2xl:w-[101px] 2xl:h-[114px]">
                   <Image src={Arrow} layout="fill"/>
                 </div>
-                <div className="mb-[-50px] 2xl:mb-[-110px]">
+                <div className="mb-[-50px] 2xl:mb-[-110px] cursor-not-allowed">
                   <Purpulebutton title={"Register Now!"}/>
                 </div>
               </div>
@@ -51,7 +51,7 @@ const Hero = () => {
             <div className="hidden lg:flex">
               <Image src={GDGAlgiers} />
             </div>
-            <CounterContainer countDownLimit={1665158400000} />
+            <CounterContainer countDownLimit={1666425600000} />
           </div>
 
           <div className="w-12 h-12 absolute bottom-16 left-8">
@@ -65,7 +65,7 @@ const Hero = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 
