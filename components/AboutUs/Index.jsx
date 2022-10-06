@@ -3,10 +3,8 @@ import WTM from "../../images/logos/WTMAlgiers.png";
 import SectionTitle from "../shared/SectionTitle";
 import GDG from "../../images/logos/GDGAlgiers.png";
 import ParagSection from "../shared/ParagSection";
-import YellowButton from "../shared/YellowButton";
 import globe from "../../images/shapes/globe.png";
-import atom from "../../images/shapes/atom.png";
-import maqam from "../../images/shapes/GDGAlgiers.png";
+import maqam from "../../images/shapes/MaqamWhite.png";
 const AboutUs = () => {
   return (
     <section>
@@ -21,8 +19,8 @@ const AboutUs = () => {
           <Image src={globe} layout="fill"/>
         </div>
 
-        <div className="absolute bottom-1/2 left-8 w-[32px] h-[32px] md:w-[40px] md:h-[40px] lg:w-[55px] lg:h-[55px] 2xl:w-[160px] 2xl:h-[112px]">
-          <Image src={maqam} />
+        <div className="absolute bottom-1/2 left-8 w-[75px] h-[53px] md:w-[40px] md:h-[40px] lg:w-[106px] lg:h-[76px] 2xl:w-[160px] 2xl:h-[112px]">
+          <Image src={maqam} layout="fill"/>
         </div>
         <div className="w-10/12 mx-auto flex flex-col gap-8">
           <SectionTitle isWhite={true} title={"About us"} />
