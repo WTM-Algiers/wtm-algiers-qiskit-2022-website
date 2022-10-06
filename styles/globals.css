@@ -5,3 +5,16 @@
 .section-container {
   @apply px-4 lg:px-11 2xl:px-16;
 }
+
+.about-bg {
+  background: radial-gradient(
+    133.05% 133.05% at 48.02% 29.5%,
+    #82cfff 0%,
+    #7cc7f7 3.4%,
+    #398ac4 34.91%,
+    #215178 61.05%,
+    #093256 80.54%,
+    #00264a 91.18%
+  );
+  /* filter: blur(31.6667px); */
+}

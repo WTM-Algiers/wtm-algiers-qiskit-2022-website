@@ -1,7 +1,7 @@
 import Head from "next/head";
 import SectionTitle from "../components/shared/SectionTitle";
-import AboutUs from "../components/AboutUs";
-import Agenda from "../components/Agenda";
+import AboutUs from "../components/AboutUs/Index";
+import Agenda from "../components/Agenda/Index";
 
 export default function Home() {
   return (
@@ -16,8 +16,9 @@ export default function Home() {
         />
       </Head>
       <main className="section-container font-IBM-Plex">
-      
+
       </main>
+      
       <AboutUs/>
     </>
   );
