@@ -10,11 +10,11 @@ const SectionTitle = ({ isWhite = false, title }) => {
     >
       <div className="flex md:h-20 md:w-16 2xl:w-28 2xl:h-32">
         {title === "About us" ? (
-          <div className="relative w-[68px] h-[75px]">
+          <div className="relative w-[68px] h-[75px] 2xl:w-[113px] 2xl:h-[127px]">
             <Image src={upArrow} alt="" layout="fill" />
           </div>
         ) : (
-          <div className="relative w-[68px] h-[75px]">
+          <div className="relative w-[68px] h-[75px] 2xl:w-[113px] 2xl:h-[127px]">
             <Image src={downArrow} alt="" />
           </div>
         )}
