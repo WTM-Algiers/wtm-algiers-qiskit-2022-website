@@ -61,7 +61,7 @@ const Footer = () => {
                         {link.content.map((cont, idx2) => {
                           return (
                             <Link href={cont.redirect} key={idx1 * idx2 + 1}>
-                              <li className="text-[0.9375rem] 2xl:text-xl cursor-pointer">
+                              <li className="text-[0.9375rem] hover:text-qiskit-yellow transition-all duration-500 2xl:text-xl cursor-pointer">
                                 {cont.name}
                               </li>
                             </Link>

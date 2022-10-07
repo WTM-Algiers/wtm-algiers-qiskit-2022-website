@@ -19,7 +19,7 @@ const Navbar = () => {
             {NavLinks.map((navLink, idx) => {
               return (
                 <Link key={idx} href={navLink.redirect}>
-                  <li className="cursor-pointer hover:text-qiskit-yellow transition-all duration-700 relative">
+                  <li className="cursor-pointer hover:text-qiskit-yellow transition-all duration-500 relative">
                     {navLink.content == "Home" && (
                       <div className="absolute left-0 -bottom-[4px] h-[5px] w-4/6 bg-qiskit-white"></div>
                     )}
@@ -53,7 +53,7 @@ const Navbar = () => {
               return (
                 <Link key={idx} href={navLink.redirect}>
                   <li
-                    className="cursor-pointer relative transition-all duration-700 hover:text-qiskit-yellow"
+                    className="cursor-pointer relative transition-all duration-500 hover:text-qiskit-yellow"
                   >
                     {navLink.content == "Home" && (
                       <div className="absolute left-2 -bottom-[4px] h-[5px] w-4/6 bg-qiskit-white"></div>

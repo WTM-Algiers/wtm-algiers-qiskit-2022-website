@@ -1,29 +1,53 @@
-import Speaker from "../../images/sectionsAssets/speaker1.png";
-
+import MohamedRouabah from "../../images/speakers/Mohamed_Rouabah.jpeg";
+import NaceriddineBelaloui from "../../images/speakers/Nacereddine_Belaloui.jpeg";
+import RickyYoung from "../../images/speakers/Ricky_Young.jpeg";
+import VardaanSahgal from "../../images/speakers/Vardaan_Sahgal.jpeg";
+import AbdellahTounsi from "../../images/speakers/Abdellah_Tounsi.jpeg";
+import MohamedGarrach from "../../images/speakers/Mohamed_Garrach.jpeg";
+import YousraFarhani from "../../images/speakers/Yousra_Farhani.jpeg";
+import Placeholder from '../../images/speakers/placeholder.jpg'
 export const speakers = [
   {
-    image: Speaker,
-    name: "Speaker1",
-    profession: " someone who teaches",
+    image: NaceriddineBelaloui,
+    name: "Nacereddine Belaloui",
+    profession: "PhD Student in Theoretical Physics",
   },
   {
-    image: Speaker,
-    name: "Speaker2",
-    profession: "professor",
+    image: MohamedRouabah,
+    name: "Taha Rouabah",
+    profession: "Associate Professor, PhD in Quantum Physics",
   },
   {
-    image: Speaker,
-    name: "Speaker3",
-    profession: "director",
+    image: RickyYoung,
+    name: "Ricky Young",
+    profession: "Quantum software engineer at Qbraid",
   },
   {
-    image: Speaker,
-    name: "Speaker4",
-    profession: "someone",
+    image: VardaanSahgal,
+    name: "Vardaan Sahgal",
+    profession:
+      "IBM Qiskit Advocate, M.Sc. Physics at NSUT, Ex Quantum Research Intern at TCS, Ex Quantum Developer at Artificial Brain Technology ",
   },
   {
-    image: Speaker,
-    name: "Speaker5",
-    profession: "another someone",
+    image: AbdellahTounsi,
+    name: "Abdellah Tounsi",
+    profession: "PhD student in Theoretical Physics",
+  },
+  {
+    image: Placeholder,
+    name: "Messaoud Louamri",
+    profession: "PhD student in Theoretical Physics",
+  },
+  {
+    image: MohamedGarrach,
+    name: "Amine Garrach",
+    profession:
+      "Quantum Computing Enthusiast, ICT Engineering Student, Tunisia",
+  },
+  {
+    image: YousraFarhani,
+    name: "Yousra Farhani",
+    profession:
+      "WTM Algiers Lead, Student at ESI Algiers, Quantum Computing Enthusiast",
   },
 ];

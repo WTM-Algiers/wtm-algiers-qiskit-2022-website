@@ -84,15 +84,15 @@ const OurSpeakers = () => {
                     }`}
                   >
                     <div className="sm:mt-[50px]">
-                      <div className=" relative border-qiskit-black border-4 -z-10">
-                        <Image src={spk.image} alt="" />
+                      <div className="relative  border-qiskit-black border-4 -z-10">
+                        <Image src={spk.image} alt={spk.name} layout="responsive"/>
                       </div>
 
-                      <div className="retlative w-3/5 mx-auto z-10 -mt-20 ">
+                      <div className="retlative w-4/5 mx-auto z-10 -mt-20 ">
                         <YellowButton title={spk.name} />
                       </div>
 
-                      <div className="mx-auto flex justify-center md:-mt-2 lg:-mt-4 2xl:-mt-2">
+                      <div className="mx-auto flex justify-center ">
                         <p> {spk.profession} </p>
                       </div>
                     </div>
