@@ -21,7 +21,7 @@ const Navbar = () => {
                 <Link key={idx} href={navLink.redirect}>
                   <li className="cursor-pointer hover:text-qiskit-yellow transition-all duration-500 relative">
                     {navLink.content == "Home" && (
-                      <div className="absolute left-0 -bottom-[4px] h-[5px] w-4/6 bg-qiskit-white"></div>
+                      <div className="absolute left-0 -bottom-[8px] h-[8px] w-4/6 bg-qiskit-white"></div>
                     )}
                     <p>{navLink.content}</p>
                   </li>
