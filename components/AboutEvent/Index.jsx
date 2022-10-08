@@ -58,9 +58,9 @@ const AboutEvent = () => {
         
         <div className= "gap-8 row-2 lg:columns-2 mt-[50px]">
           <div><Image src={Map} alt="" /></div>
-          <div className="gap-8 rows-2 p-4 sm:p-10">
-            <p className="text-xl 2xl:text-3xl lg:text-2xl"><b>The Qiskit Fall Fest</b> is a collection of quantum computing events on college campuses around the world, with support from the entire IBM Quantum team. This year <b>WTM Algiers</b> is one of the 34 communities which are hosting the Qiskit Fall Fest event this year</p>
-            <div className="gap-4 columns-2 2xl:text-4xl lg:text-3xl text-xl font-bold mt-[15px] pr-2">
+          <div className="gap-2 rows-2 p-4 sm:p-10">
+            <p className="text-xl 2xl:text-2xl lg:text-2xl"><b>The Qiskit Fall Fest</b> is a collection of quantum computing events on college campuses around the world, with support from the entire IBM Quantum team. This year <b>WTM Algiers</b> is one of the 34 communities which are hosting the Qiskit Fall Fest event this year</p>
+            <div className="gap-3 columns-2 2xl:text-4xl lg:text-3xl text-xl font-bold mt-[15px] pr-2">
               <div className="flex-row">
                 <p className="2xl:text-7xl lg:text-6xl text-2xl">1ST</p>
                 <p className="2xl:text-4xl lg:text-3xl sm:text-xl text-base">In Africa and</p>

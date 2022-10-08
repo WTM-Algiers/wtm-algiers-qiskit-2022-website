@@ -13,7 +13,7 @@ const Footer = () => {
         <Image src={GlobeShape} height={42} width={42} />
       </div>
       <div className="flex flex-col items-center lg:items-start lg:flex-row">
-        <div className="-mt-16 order-first lg:order-last ">
+        <div className="-mt-16 order-first bounce lg:order-last ">
           <Image src={Qiskit} alt="qiskit" />
         </div>
         <div className="pt-14 pl-4 pr-4 lg:pl-11 lg:pr-0 2xl:pl-16">
@@ -32,8 +32,7 @@ const Footer = () => {
             <div className="flex flex-col lg:flex-row gap-12">
               <div className="flex lg:w-2/6 flex-col lg:gap-14">
                 <p className="hidden lg:flex font-light text-[0.9375rem] 2xl:text-xl">
-                  Dysfaktisk. Kas. Intradade. Rökroment. Hexasat. Var. Måns.
-                  Ofase. Dihet. Euroktigt. Multidiligt. Säpong. Rism. Måfuhäda.{" "}
+                  A community of creative spirits that aims to help others learn and explore the tech domain{" "}
                 </p>
 
                 <div className="flex gap-10 justify-center items-center lg:justify-start">
@@ -83,10 +82,10 @@ const Footer = () => {
         </p>
       </div>
 
-      <div className="absolute bottom-[4rem] -left-10 lg:bottom-0 lg:left-0">
+      <div className="absolute bottom-[4rem] bounce -left-10 lg:bottom-0 lg:left-0">
         <Image src={AlgeriaSymbol} height={74} width={107} />
       </div>
-      <div className="absolute bottom-[4rem] right-0 lg:bottom-0 lg:right-1/4">
+      <div className="absolute bounce bottom-[4rem] right-0 lg:bottom-0 lg:right-1/4">
         <Image src={GlobeShape} height={42} width={42} />
       </div>
     </footer>

@@ -33,10 +33,6 @@ const OurSpeakers = () => {
         <Image src={globe} alt="globebottom" layout="fill" />
       </div>
 
-      <div className="hidden lg:block absolute  lg:w-[40px] bottom-[2rem] right-0 lg:bottom-0 lg:right-1/2">
-        <Image src={computer} alt="computer" />
-      </div>
-
       <div className="absolute sm:bottom-0 sm:right-0 sm:w-[45px] md:right-1/2 lg:w-[40px] top-[2rem] right-0 lg:bottom-0 lg:right-1/2">
         <Image src={atom} alt="atomtop" />
       </div>
@@ -81,7 +77,7 @@ const OurSpeakers = () => {
                         : isPrev || isNext
                         ? "lg:scale-100"
                         : "lg:scale-75"
-                    }`}
+                    } gap-4`}
                   >
                     <div className="sm:mt-[50px]">
                       <div className="relative  border-qiskit-black border-4 -z-10">
@@ -92,7 +88,7 @@ const OurSpeakers = () => {
                         <YellowButton title={spk.name} />
                       </div>
 
-                      <div className="mx-auto flex justify-center ">
+                      <div className="mx-auto flex justify-center text-[17px] font-semibold ">
                         <p> {spk.profession} </p>
                       </div>
                     </div>

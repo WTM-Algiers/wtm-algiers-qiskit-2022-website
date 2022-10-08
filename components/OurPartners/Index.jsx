@@ -14,6 +14,7 @@ const OurPartners = () => {
     {
       text: "Qiskit is an open-source software development kit (SDK) for working with quantum computers at the level of circuits, pulses, and algorithms. It provides tools for creating and manipulating quantum programs and running them on prototype quantum devices on IBM Quantum Experience or on simulators on a local computer",
       src: Qiskit,
+      font: "font-bold",
       color: "partner-blue",
       redirect: "https://qiskit.org/",
     },
@@ -24,7 +25,7 @@ const OurPartners = () => {
       redirect: "https://www.ibm.com/",
     },
     {
-      text: "Constantine Quantum Technologies a professional creative community of Quantum Researchers and PHd students, who works on several Quantum Topics and shares many research papers",
+      text: "Constantine Quantum Technologies a professional creative community of Quantum Researchers and PHd students, who works on several Quantum Topics and shares many research papers ",
       src: CQTech,
       color: "partner-green",
       space: true,
