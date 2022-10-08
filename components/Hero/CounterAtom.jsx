@@ -3,7 +3,7 @@ import Atom from "../../images/sectionsAssets/Atom.png";
 
 const CounterAtom = ({time, timeleft}) => {
   return (
-    <div className="relative -mt-0 content-center">
+    <div className="relative -mt-0 bounce content-center">
       <Image src={Atom} height={105} width={105} />
       <div className="absolute top-1/4 right-1/3 text-2xl">
         <p className="font-bold text-center text-2xl">{timeleft}</p>
