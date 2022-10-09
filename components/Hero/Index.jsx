@@ -8,7 +8,8 @@ import Maqam from "../../images/shapes/MaqamWhite.png";
 import Atom from "../../images/shapes/atomWhite.png";
 import Globe from "../../images/shapes/globe.png";
 import Computer from "../../images/shapes/computerWhite.png";
-import Purpulebutton from '../shared/Purpulebutton'
+import Purpulebutton from "../shared/Purpulebutton";
+import Tilt from "react-parallax-tilt";
 const Hero = () => {
   return (
     <section id="home" className="min-h-screen hero-bg">
@@ -34,16 +35,18 @@ const Hero = () => {
               </p>
               <div className="flex items-end">
                 <div className="relative h-[67px] w-[67px] 2xl:w-[101px] 2xl:h-[114px]">
-                  <Image src={Arrow} layout="fill"/>
+                  <Image src={Arrow} layout="fill" />
                 </div>
                 <div className="mb-[-50px] 2xl:mb-[-110px] cursor-not-allowed">
-                  <Purpulebutton title={"Register Now!"}/>
+                  <Purpulebutton title={"Register Now!"} />
                 </div>
               </div>
             </div>
 
             <div className="flex-1 pt-20 lg:pt-0 order-first lg:order-last">
-              <Image src={Qiskit} />
+              <Tilt>
+                <Image src={Qiskit} />
+              </Tilt>
             </div>
           </div>
 
