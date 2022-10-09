@@ -10,7 +10,7 @@ import Globe from "../../images/shapes/globe.png";
 import Computer from "../../images/shapes/computerWhite.png";
 import Purpulebutton from "../shared/Purpulebutton";
 import Tilt from "react-parallax-tilt";
-import Typewriter from 'typewriter-effect'
+import Typewriter from "typewriter-effect";
 const Hero = () => {
   return (
     <section id="home" className="min-h-screen hero-bg">
@@ -29,11 +29,11 @@ const Hero = () => {
           <div className="flex flex-col lg:flex-row items-center">
             <div className="flex flex-col gap-7 flex-1 lg:pl-12 text-qiskit-white">
               <h1 className="font-bold text-center lg:text-left text-4xl lg:text-6xl 2xl:text-7xl leading-[4.5rem]">
-                <Typewriter 
+                <Typewriter
                   options={{
                     strings: ["Qiskit | Fall Fest Algiers"],
                     autoStart: true,
-                    loop:true
+                    loop: true,
                   }}
                 />
               </h1>
@@ -41,7 +41,7 @@ const Hero = () => {
                 Your chance to discover the Quantum Computing world!
               </p>
               <div className="flex items-end">
-                <div className="relative h-[67px] w-[67px] 2xl:w-[101px] 2xl:h-[114px]">
+                <div className="relative h-[67px] bounce w-[67px] 2xl:w-[101px] 2xl:h-[114px]">
                   <Image src={Arrow} layout="fill" />
                 </div>
                 <div className="mb-[-50px] 2xl:mb-[-110px] cursor-not-allowed">
