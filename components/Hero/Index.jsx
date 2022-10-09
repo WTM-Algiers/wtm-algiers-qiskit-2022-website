@@ -10,7 +10,7 @@ import Globe from "../../images/shapes/globe.png";
 import Computer from "../../images/shapes/computerWhite.png";
 import Purpulebutton from '../shared/Purpulebutton'
 import Typewriter from "typewriter-effect"
-
+import Tilt from "react-parallax-tilt";
 const Hero = () => {
   return (
     <section id="home" className="min-h-screen hero-bg">
@@ -45,13 +45,15 @@ const Hero = () => {
                   <Image src={Arrow} layout="fill"/>
                 </div>
                 <div className="mb-[-50px] 2xl:mb-[-110px] cursor-not-allowed">
-                  <Purpulebutton title={"Register Now!"}/>
+                  <Purpulebutton title={"Register Now!"} />
                 </div>
               </div>
             </div>
 
             <div className="flex-1 pt-20 lg:pt-0 order-first lg:order-last">
-              <Image src={Qiskit} />
+              <Tilt>
+                <Image src={Qiskit} />
+              </Tilt>
             </div>
           </div>
 
