@@ -6,6 +6,8 @@ import GDGWHITE from "../../images/logos/GDGAlgiers-white.png";
 import GlobeShape from "../../images/shapes/globe.png";
 import AlgeriaSymbol from "../../images/shapes/GDGAlgiers.png";
 import { socialsMedia, links } from "./data";
+import Tilt from "react-parallax-tilt";
+
 const Footer = () => {
   return (
     <footer className="mt-32 footer-bg text-qiskit-white flex flex-col gap-6 relative">
@@ -13,8 +15,10 @@ const Footer = () => {
         <Image src={GlobeShape} height={42} width={42} />
       </div>
       <div className="flex flex-col items-center lg:items-start lg:flex-row">
-        <div className="-mt-16 order-first lg:order-last ">
-          <Image src={Qiskit} alt="qiskit" />
+        <div className="cursor-pointer -mt-16 order-first lg:order-last ">
+          <Tilt>
+            <Image src={Qiskit} alt="Qiskit Fall Fest Algiers" />
+          </Tilt>
         </div>
         <div className="pt-14 pl-4 pr-4 lg:pl-11 lg:pr-0 2xl:pl-16">
           <div className="flex flex-col gap-6">
