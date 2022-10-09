@@ -13,7 +13,7 @@ const Footer = () => {
         <Image src={GlobeShape} height={42} width={42} />
       </div>
       <div className="flex flex-col items-center lg:items-start lg:flex-row">
-        <div className="-mt-16 order-first bounce lg:order-last ">
+        <div className="-mt-16 order-first lg:order-last ">
           <Image src={Qiskit} alt="qiskit" />
         </div>
         <div className="pt-14 pl-4 pr-4 lg:pl-11 lg:pr-0 2xl:pl-16">
@@ -82,10 +82,10 @@ const Footer = () => {
         </p>
       </div>
 
-      <div className="absolute bottom-[4rem] bounce -left-10 lg:bottom-0 lg:left-0">
+      <div className="absolute bottom-[4rem] -left-10 lg:bottom-0 lg:left-0">
         <Image src={AlgeriaSymbol} height={74} width={107} />
       </div>
-      <div className="absolute bounce bottom-[4rem] right-0 lg:bottom-0 lg:right-1/4">
+      <div className="absolute bottom-[4rem] right-0 lg:bottom-0 lg:right-1/4">
         <Image src={GlobeShape} height={42} width={42} />
       </div>
     </footer>
