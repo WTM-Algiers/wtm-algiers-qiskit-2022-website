@@ -36,8 +36,7 @@ const Footer = () => {
             <div className="flex flex-col lg:flex-row gap-12">
               <div className="flex lg:w-2/6 flex-col lg:gap-14">
                 <p className="hidden lg:flex font-light text-[0.9375rem] 2xl:text-xl">
-                  Dysfaktisk. Kas. Intradade. Rökroment. Hexasat. Var. Måns.
-                  Ofase. Dihet. Euroktigt. Multidiligt. Säpong. Rism. Måfuhäda.{" "}
+                A community of creative spirits that aims to help others learn and explore the tech domain{" "}
                 </p>
 
                 <div className="flex gap-10 justify-center items-center lg:justify-start">

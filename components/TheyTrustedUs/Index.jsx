@@ -31,18 +31,18 @@ const TheyTrustedUs = () => {
           <Image src={maqam} alt="" />
         </div>
 
-        <div className="flex flex-col gap-9 2xl:ml-52 lg:ml-40 lg:flex-row lg:mt-20 lg:gap-28 w-3/4 mx-auto  2xl:flex-row 2xl:mt-32 2xl:gap-40">
+        <div className="flex flex-col justify-center gap-9 2xl:ml-52 lg:ml-40 lg:flex-row lg:mt-20 lg:gap-28 w-3/4 mx-auto  2xl:flex-row 2xl:mt-32 2xl:gap-40">
           <div className="mt-8 h-16 w-44 lg:w-[22rem] lg:h-36 2xl:h-44 2xl:w-[33rem]">
             <Image src={qBraid} alt="qbraid logo" />
           </div>
 
-          <div className="lg:mt-10">
+          {/* <div className="lg:mt-10">
             <div className="h-16 w-36 lg:w-[22rem] lg:h-36 2xl:h-52 2xl:w-[33rem]">
               <Image src={WIQ} alt="WIQ logo" />
             </div>
-          </div>
+          </div> */}
         </div>
-
+{/* 
         <div className="flex flex-col items-center gap-9 lg:flex-row lg:gap-24 lg:mr-28 2xl:flex-row 2xl:mr-60 2xl:gap-36 w-2/3 mx-auto">
           <div className="mt-8 h-[7.75rem] w-[7.6rem] lg:h-44 lg:w-44 lg:-mt-1 2xl:mt-4 2xl:h-64 2xl:w-64">
             <Image src={Sonatrach} alt="Sonatrach logo" />
@@ -51,7 +51,7 @@ const TheyTrustedUs = () => {
           <div className="lg:mt-10 lg:w-80 lg:h-28 2xl:mt-20 2xl:h-40 2xl:w-[32rem]">
             <Image src={World} alt="World logo" />
           </div>
-        </div>
+        </div> */}
       </div>
 
       <div className="relative mt-20">

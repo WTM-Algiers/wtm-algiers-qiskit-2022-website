@@ -19,9 +19,9 @@ export default function Home() {
       <main className="font-IBM-Plex">
         <AboutEvent />
         <AboutUs />
-        <TheyTrustedUs />
-        <OurSpeakers/>
         <OurPartners />
+        <OurSpeakers/>
+        <TheyTrustedUs />
         <Agenda />
       </main>
       <Footer />

@@ -92,7 +92,7 @@ const OurSpeakers = () => {
                         <YellowButton title={spk.name} />
                       </div>
 
-                      <div className="mx-auto flex justify-center ">
+                      <div className="mx-auto flex justify-center text-[17px] font-semibold">
                         <p> {spk.profession} </p>
                       </div>
                     </div>
