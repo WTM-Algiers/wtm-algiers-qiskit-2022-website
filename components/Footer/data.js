@@ -6,7 +6,7 @@ export const socialsMedia = [
   {
     social: "Twitter",
     logo: Twitter,
-    redirect: "",
+    redirect: "https://twitter.com/algierswtm",
   },
   {
     social: "Facebook",

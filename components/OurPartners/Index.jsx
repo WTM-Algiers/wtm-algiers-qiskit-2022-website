@@ -56,7 +56,7 @@ const OurPartners = () => {
                 } mx-auto my-10  `}
               >
                 <div className={`bg-${partner.color} w-72 rounded-lg md:w-96`}>
-                  <p className=" text-center">{partner.text}</p>
+                  <p className=" text-center 2xl:text-lg">{partner.text}</p>
                 </div>
                 <Link href={partner.redirect}>
                   <a target="__blank">

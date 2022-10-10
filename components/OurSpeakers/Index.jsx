@@ -1,4 +1,4 @@
-import { useRef, useState } from "react";
+import { useRef } from "react";
 import YellowButton from "../shared/YellowButton";
 import Image from "next/image";
 import RightArrow from "../../images/sectionsAssets/rightArrow.png";
