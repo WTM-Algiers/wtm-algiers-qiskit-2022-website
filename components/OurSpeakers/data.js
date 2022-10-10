@@ -5,7 +5,7 @@ import VardaanSahgal from "../../images/speakers/Vardaan_Sahgal.jpeg";
 import AbdellahTounsi from "../../images/speakers/Abdellah_Tounsi.jpeg";
 import MohamedGarrach from "../../images/speakers/Mohamed_Garrach.jpeg";
 import YousraFarhani from "../../images/speakers/Yousra_Farhani.jpeg";
-import Placeholder from '../../images/speakers/placeholder.jpg'
+import MessaoudLouamri from "../../images/speakers/Messaoud_Louamri.png";
 export const speakers = [
   {
     image: NaceriddineBelaloui,
@@ -34,7 +34,7 @@ export const speakers = [
     profession: "PhD student in Theoretical Physics",
   },
   {
-    image: Placeholder,
+    image: MessaoudLouamri,
     name: "Messaoud Louamri",
     profession: "PhD student in Theoretical Physics",
   },
