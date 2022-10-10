@@ -1,12 +1,12 @@
 import Image from "next/image";
 import Atom from "../../images/sectionsAssets/Atom.png";
 
-const CounterAtom = ({time, timeleft}) => {
+const CounterAtom = ({time, timeleft, isHidden=false}) => {
   return (
-    <div className="relative -mt-12">
+    <div className={`${isHidden&& 'hidden md:flex'} relative -mt-12`}>
       <Image src={Atom} height={100} width={100} />
-      <div className="absolute top-1/4 right-1/3 text-xl">
-        <p className="font-bold text-center text-2xl">{timeleft}</p>
+      <div className="absolute top-1/4 right-[36%] text-xl">
+        <p className="font-bold text-center text-lg lg:text-2xl">{timeleft}</p>
         <p className="text-center text-sm">{time}</p>
       </div>
     </div>
