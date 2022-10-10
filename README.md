@@ -1,34 +1,81 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<a name="readme-top"></a>
 
-## Getting Started
+<!--
+*** This the README file of our Qiskit-Fall-Fest-Algiers-2022 project.
+-->
 
-First, run the development server:
+[![Contributors][contributors-shield]][contributors-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
+[![MIT License][license-shield]][license-url]
+[![LinkedIn][linkedin-shield]][linkedin-url]
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+<!-- PROJECT LOGO -->
+<br />
+<div align="center">
+  <a href="https://github.com/GDGAlgiers/gdg-algiers-website-2022">
+    <img src="./public/Qiskit.png" alt="Logo" width="70%" height="auto">
+  </a>
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+  <h3 align="center">Qiskit Fall Fest Algiers website</h3>
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+  <p align="center">
+    this is the official repository for Qiskit Fall Fest Algiers website
+    <br />
+    <br />
+    <br />
+    <a href="https://wtm-algiers-qiskit-2022-website-4dmt4jjg1-wtm-algiers.vercel.app/">View Demo</a>
+    ·
+    <a href="https://github.com/GDGAlgiers/gdg-algiers-website-2022/issues">Report Bug</a>
+  </p>
+</div>
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+<!-- ABOUT THE PROJECT -->
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+## About The Project
 
-## Learn More
+[![Qiskit-Fall-Fest-Algiers-Home][qiskit-fall-fest-screenshot]](https://wtm-algiers-qiskit-2022-website-4dmt4jjg1-wtm-algiers.vercel.app/)
 
-To learn more about Next.js, take a look at the following resources:
+This is the official repository of Qiskit Fall Fest Algiers
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Built With
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Technologies used to build the website:
 
-## Deploy on Vercel
+- [![Next][next.js]][next-url]
+- [![React][react.js]][react-url]
+- [![tailwindcss][tailwindcss.com]][tailwindcss-url]
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+<!-- LICENSE -->
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## License
+
+Distributed under the MIT License. See `LICENSE` for more information.
+
+<!-- CONTACT -->
+
+## Contact
+
+WTM Algiers - [@wtm_algiers](https://twitter.com/wtm_algiers) - wtm.algiers@esi.dz
+
+Project Link: [https://github.com/WTM-Algiers/wtm-algiers-qiskit-2022-website](https://github.com/WTM-Algiers/wtm-algiers-qiskit-2022-website)
+
+<!-- MARKDOWN LINKS & IMAGES -->
+
+[contributors-shield]: https://img.shields.io/github/contributors/GDGAlgiers/gdg-algiers-website-2022.svg?style=for-the-badge
+[contributors-url]: https://github.com/WTM-Algiers/wtm-algiers-qiskit-2022-website/graphs/contributors
+[stars-shield]: https://img.shields.io/github/stars/WTM-Algiers/wtm-algiers-qiskit-2022-website.svg?style=for-the-badge
+[stars-url]: https://github.com/WTM-Algiers/wtm-algiers-qiskit-2022-website/stargazers
+[issues-shield]: https://img.shields.io/github/issues/WTM-Algiers/wtm-algiers-qiskit-2022-website.svg?style=for-the-badge
+[issues-url]: https://github.com/WTM-Algiers/wtm-algiers-qiskit-2022-website/issues
+[license-shield]: https://img.shields.io/github/license/WTM-Algiers/wtm-algiers-qiskit-2022-website.svg?style=for-the-badge
+[license-url]: https://github.com/WTM-Algiers/wtm-algiers-qiskit-2022-website/blob/master/LICENSE
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
+[linkedin-url]: https://www.linkedin.com/company/gdg-algiers/
+[qiskit-fall-fest-screenshot]: images/sectionsAssets/screenshot.png
+[next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
+[next-url]: https://nextjs.org/
+[react.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
+[react-url]: https://reactjs.org/
+[tailwindcss.com]: https://img.shields.io/badge/TailwindCSS-563D7C?style=for-the-badge&logo=TailwindCSS&logoColor=white
+[tailwindcss-url]: https://tailwindcss.com
