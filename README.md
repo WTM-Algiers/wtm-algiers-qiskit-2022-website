@@ -19,7 +19,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/GDGAlgiers/gdg-algiers-website-2022">
-    <img src="./public/Qiskit.png" alt="Logo" width="50%" height="auto">
+    <img src="./public/Qiskit.png" alt="Logo" width="100%" height="auto">
   </a>
 
   <h3 align="center">Qiskit Fall Fest Algiers website</h3>
@@ -37,29 +37,13 @@
 
 
 
-<!-- TABLE OF CONTENTS -->
-<details>
-  <summary>Table of Contents</summary>
-  <ol>
-    <li>
-      <a href="#about-the-project">About The Project</a>
-      <ul>
-        <li><a href="#built-with">Built With</a></li>
-      </ul>
-    </li>
-    <li><a href="#license">License</a></li>
-    <li><a href="#contact">Contact</a></li>
-  </ol>
-</details>
-
-
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
 [![Qiskit-Fall-Fest-Algiers-Home][Qiskit-Fall-Fest-screenshot]](https://www.gdgalgiers.com)
 
-This is our official repository of GDG-Algiers website
+This is the official repository of Qiskit Fall Fest Algiers
 
 
 
@@ -84,7 +68,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@wtm_algiers](https://twitter.com/gdg_algiers) - wtm.algiers@esi.dz
+WTM Algiers - [@wtm_algiers](https://twitter.com/wtm_algiers) - wtm.algiers@esi.dz
 
 Project Link: [https://github.com/WTM-Algiers/wtm-algiers-qiskit-2022-website](https://github.com/WTM-Algiers/wtm-algiers-qiskit-2022-website)
 
