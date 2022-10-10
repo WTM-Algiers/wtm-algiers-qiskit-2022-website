@@ -29,7 +29,7 @@ const AboutUs = () => {
               keyword1={"WTM Algiers "}
               paragraph1={`also known as the "Women Techmakers Algiers" program, was created to increase visibility, community, and resources for women in technology and also spread learning and build role models globally. It's located at`}
               keyword2={" the National Higher School of Computer science "}
-              paragraph2={`and dedicated to anyone who passionate and motivated about the tech field.`}
+              paragraph2={`and dedicated to anyone who's passionate and motivated about the tech field.`}
               img={WTM}
               reverse={false}
               redirect={"https://www.wtmalgiers.org/"}
