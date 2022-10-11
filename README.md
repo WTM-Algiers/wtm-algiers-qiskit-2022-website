@@ -50,7 +50,7 @@ Technologies used to build the website:
 
 ## License
 
-Distributed under the MIT License. See `LICENSE` for more information.
+Distributed under the No License. See `LICENSE` for more information.
 
 <!-- CONTACT -->
 
@@ -58,7 +58,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 WTM Algiers - [@wtm_algiers](https://twitter.com/wtm_algiers) - wtm.algiers@esi.dz
 
-Project Link: [https://github.com/WTM-Algiers/wtm-algiers-qiskit-2022-website](https://github.com/WTM-Algiers/wtm-algiers-qiskit-2022-website)
+Project Link: [qiskit-fall-fest-algiers.wtmalgiers.org](https://qiskit-fall-fest-algiers.wtmalgiers.org)
 
 <!-- MARKDOWN LINKS & IMAGES -->
 
