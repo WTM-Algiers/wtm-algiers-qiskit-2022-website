@@ -10,12 +10,12 @@ export const speakers = [
   {
     image: NaceriddineBelaloui,
     name: "Nacereddine Belaloui",
-    profession: "PhD Student in Theoretical Physics",
+    profession: "PhD student in Theoretical Physics, Research Associate at CQTech",
   },
   {
     image: MohamedRouabah,
     name: "Taha Rouabah",
-    profession: "Associate Professor, PhD in Quantum Physics",
+    profession: "Principal Investigator at CQTech, Associate Professor at University of Constantine 1",
   },
   {
     image: RickyYoung,
@@ -31,12 +31,12 @@ export const speakers = [
   {
     image: AbdellahTounsi,
     name: "Abdellah Tounsi",
-    profession: "PhD student in Theoretical Physics",
+    profession: "PhD student in Theoretical Physics, Research Associate at CQTech",
   },
   {
     image: MessaoudLouamri,
     name: "Messaoud Louamri",
-    profession: "PhD student in Theoretical Physics",
+    profession: "PhD student in Theoretical Physics, Research Associate at CQTech",
   },
   {
     image: MohamedGarrach,
