@@ -14,19 +14,16 @@ const OurPartners = () => {
     {
       text: "Qiskit is an open-source software development kit (SDK) for working with quantum computers at the level of circuits, pulses, and algorithms. It provides tools for creating and manipulating quantum programs and running them on prototype quantum devices on IBM Quantum Experience or on simulators on a local computer",
       src: Qiskit,
-      color: "partner-blue",
       redirect: "https://qiskit.org/",
     },
     {
       text: "International Business Machines Corporation (IBM) is an American multinational technology corporation headquartered in Armonk, New York, with operations in over 171 countries.  IBM produces and sells computer hardware, middleware, and software, and provides hosting and consulting services in areas ranging from mainframe computers to nanotechnology ",
       src: IBM,
-      color: "partner-yellow",
       redirect: "https://www.ibm.com/",
     },
     {
       text: "Constantine Quantum Technologies a professional creative community of Quantum Researchers and PHd students, who works on several Quantum Topics and shares many research papers",
       src: CQTech,
-      color: "partner-green",
       space: true,
       redirect: "https://cqtech.org/",
     },
@@ -55,7 +52,7 @@ const OurPartners = () => {
                   partner.space ? " lg:mx-80 md:mx-auto " : "mx-auto"
                 } mx-auto my-10  `}
               >
-                <div className={`bg-${partner.color} w-72 rounded-lg md:w-96`}>
+                <div className={`w-72 rounded-lg md:w-96`}>
                   <p className=" text-center 2xl:text-lg">{partner.text}</p>
                 </div>
                 <Link href={partner.redirect}>
