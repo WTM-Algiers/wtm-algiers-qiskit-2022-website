@@ -22,7 +22,7 @@ const OurPartners = () => {
       redirect: "https://www.ibm.com/",
     },
     {
-      text: "Constantine Quantum Technologies a professional creative community of Quantum Researchers and PHd students, who works on several Quantum Topics and shares many research papers",
+      text: "Constantine Quantum Technologies (CQTech) is a collaborative research group working on Quantum Optics, Quantum Computing, and Quantum Simulation. CQTech members are mainly theoretical physicists from University of Constantine 1 (UC1) with a strong background on quantum mechanics, statistical mechanics, mathematical and computational physics.",
       src: CQTech,
       space: true,
       redirect: "https://cqtech.org/",
