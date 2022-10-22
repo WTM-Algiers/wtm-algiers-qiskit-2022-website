@@ -1,9 +1,8 @@
 const Button = ({ title }) => {
   return (
-    <a
-      href="https://forms.gle/gkWs1mjufLsHhPuX9"
-      target="__blank"
-      className="z-2"
+    <button
+      disabled={true}
+      className="z-2 cursor-not-allowed"
     >
       <div className="bg-[url('/hero/purpule_button.svg')] bg-no-repeat bg-center bg-contain z-10">
         <div className=" place-content-center flex justify-center">
@@ -12,7 +11,7 @@ const Button = ({ title }) => {
           </div>
         </div>
       </div>
-    </a>
+    </button>
   );
 };
 

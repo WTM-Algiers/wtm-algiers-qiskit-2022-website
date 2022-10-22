@@ -1,9 +1,8 @@
 const Bluebutton = ({ title }) => {
   return (
-    <a
-      href="https://forms.gle/gkWs1mjufLsHhPuX9"
-      target="__blank"
-      className="z-20 mb-[-20px]"
+    <button
+      disabled={true}
+      className="z-20 mb-[-20px] cursor-not-allowed"
     >
       <div className="bg-[url('/hero/blue_button.svg')] bg-no-repeat bg-center bg-cover z-10">
         <div className="h-1/6 mx-[25px] pb-2 flex justify-center">
@@ -12,7 +11,7 @@ const Bluebutton = ({ title }) => {
           </div>
         </div>
       </div>
-    </a>
+    </button>
   );
 };
 
